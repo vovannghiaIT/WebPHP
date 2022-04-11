@@ -1,0 +1,105 @@
+
+.z2{
+  z-index: 2 !important;
+}
+.z1{
+  z-index: 1 !important;
+}
+.bg-menu{
+      background-color: #F2F2F2;
+      
+  }
+body{
+  width: 100%;
+    font-family:  'Times New Roman', Times, serif;
+}
+.b1-1{
+    box-sizing: border-box;
+}
+
+
+.position1{
+    position: absolute;
+    top:0;
+    right: 85%;
+    left: 0%;
+}
+.hv:hover{
+    color:red !important;
+}
+.t-re{
+    color:#FF0040;
+}
+
+.img-wrapper {  
+    width: 100%;
+    overflow: hidden; 
+  }
+  
+  .inner-img {
+    transition: 0.3s;
+  }
+  
+  .inner-img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Other styling elements, that are not necessary for the example */
+  
+  .img-wrapper {
+    display: inline-block;
+    box-sizing: border-box;
+    
+  }
+.bg-t{
+  background-color: #2a2a4d !important;
+}
+.ic{
+    color: white;
+    font-size: 2em;
+}
+.ic1{
+    color: white;
+    font-size: 4em;
+}
+.hh:hover{
+
+    width: 25%;
+    height: 25% ;
+    border-radius: 100rem;
+  color:black;
+  background-color: white;
+}
+.nav2{
+  list-style-type: none;
+}
+/* hover đổi hình ảnh */
+img { vertical-align:middle; }
+.box-hover {
+
+    height: auto;
+    overflow: hidden;
+    position: relative;
+   
+}
+.box-hover img {
+    max-width: 100%;
+    transition: all 1s;
+}
+
+.box-hover .img-change {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 1;
+}
+.box-hover:hover .img-change {
+    opacity: 0;
+}
+/* img vừa khối div */
+img {
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+ 
+/* hiệu ứng img border */

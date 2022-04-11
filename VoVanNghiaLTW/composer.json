@@ -1,0 +1,16 @@
+{
+    "name": "vannghia/vo-van-nghia-ltw",
+    "description": "lap trinh PHP",
+    "type": "project",
+    "autoload":
+    {
+        "psr-4":
+        {
+            "App\\":"app/"
+        }
+    },
+    "require": {
+        "cartalyst/sentinel": "^5.1",
+        "shuchkin/simplexlsx": "^1.0"
+    }
+}
